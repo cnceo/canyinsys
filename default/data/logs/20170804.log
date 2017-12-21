@@ -1,0 +1,40 @@
+2017-08-04 11:23:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501817023</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-04 11:23:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501817023',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501817023',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-04 11:23:43 response :
+------------
+

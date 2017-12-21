@@ -1,0 +1,228 @@
+2017-07-03 09:48:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1499046490</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点餐]]></Content>
+<MsgId>6438355650243940031</MsgId>
+</xml>
+
+2017-07-03 09:48:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1499046490',
+    'msgtype' => 'text',
+    'content' => '点餐',
+    'msgid' => '6438355650243940031',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1499046490',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '61',
+    'rid' => '13',
+    'uniacid' => '5',
+    'module' => 'news',
+    'content' => '点餐',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-03 09:48:10 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1JmL6XVB2Wi7DQCZGGAF_dA ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-03 09:48:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1499046497</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[985645]]></Content>
+<MsgId>6438355680308711110</MsgId>
+</xml>
+
+2017-07-03 09:48:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1499046497',
+    'msgtype' => 'text',
+    'content' => '电话',
+    'msgid' => '6438355680308711110',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1499046497',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => true,
+    'source' => 'default',
+    'original' => '985645',
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '5',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-03 09:48:17 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1JmL6XVB2Wi7DQCZGGAF_dA ;
+MsgType : text ;
+Content : 远宇诚智慧科技诚挚为您解决智能推广平台服务：18630221022 ;
+
+2017-07-03 17:16:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1KzAAhHyOaGPthyLZMbMLRQ]]></FromUserName>
+<CreateTime>1499073368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFHFLJWT]]></EventKey>
+<MenuId>510277493</MenuId>
+</xml>
+
+2017-07-03 17:16:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1KzAAhHyOaGPthyLZMbMLRQ',
+    'createtime' => '1499073368',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'menuid' => '510277493',
+    'from' => 'oSt1B1KzAAhHyOaGPthyLZMbMLRQ',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1499073368',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '5',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-03 17:16:08 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1KzAAhHyOaGPthyLZMbMLRQ ;
+MsgType : text ;
+Content : 远宇诚智慧科技诚挚为您解决智能推广平台服务：18630221022 ;
+
+2017-07-03 21:26:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1499088373</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFHFLJWT]]></EventKey>
+<MenuId>510277493</MenuId>
+</xml>
+
+2017-07-03 21:26:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1499088373',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'menuid' => '510277493',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1499088373',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '5',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-03 21:26:13 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : text ;
+Content : 远宇诚智慧科技诚挚为您解决智能推广平台服务：18630221022 ;
+

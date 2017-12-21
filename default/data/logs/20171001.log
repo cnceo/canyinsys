@@ -1,0 +1,56 @@
+2017-10-01 22:46:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1KzAAhHyOaGPthyLZMbMLRQ]]></FromUserName>
+<CreateTime>1506869215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[招牌菜]]></EventKey>
+</xml>
+
+2017-10-01 22:46:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1KzAAhHyOaGPthyLZMbMLRQ',
+    'createtime' => '1506869215',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '招牌菜',
+    'from' => 'oSt1B1KzAAhHyOaGPthyLZMbMLRQ',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1506869215',
+    'type' => 'text',
+    'content' => '招牌菜',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '15',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '72',
+    'rid' => '15',
+    'uniacid' => '5',
+    'module' => 'news',
+    'content' => '招牌菜',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-10-01 22:46:55 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1KzAAhHyOaGPthyLZMbMLRQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

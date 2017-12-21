@@ -1,0 +1,80 @@
+2017-05-27 09:18:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK03tq1G1vEOIDt3u8Ct5oc18]]></FromUserName>
+<CreateTime>1495847924</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter]]></EventKey>
+<MenuId>472116135</MenuId>
+</xml>
+
+2017-05-27 09:18:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK03tq1G1vEOIDt3u8Ct5oc18',
+    'createtime' => '1495847924',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'menuid' => '472116135',
+    'from' => 'oG-qK03tq1G1vEOIDt3u8Ct5oc18',
+    'to' => 'gh_64193e389546',
+    'time' => '1495847924',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-05-27 09:18:44 response :
+------------
+
+2017-05-27 09:21:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK03tq1G1vEOIDt3u8Ct5oc18]]></FromUserName>
+<CreateTime>1495848061</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter]]></EventKey>
+<MenuId>472116135</MenuId>
+</xml>
+
+2017-05-27 09:21:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK03tq1G1vEOIDt3u8Ct5oc18',
+    'createtime' => '1495848061',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'menuid' => '472116135',
+    'from' => 'oG-qK03tq1G1vEOIDt3u8Ct5oc18',
+    'to' => 'gh_64193e389546',
+    'time' => '1495848061',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-05-27 09:21:01 response :
+------------
+

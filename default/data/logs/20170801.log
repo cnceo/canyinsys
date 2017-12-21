@@ -1,0 +1,160 @@
+2017-08-01 11:49:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxODNtqBh9ssvHKdimEh1WM8]]></FromUserName>
+<CreateTime>1501559392</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-01 11:49:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'createtime' => '1501559392',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501559392',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-01 11:49:52 response :
+------------
+
+2017-08-01 11:49:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxODNtqBh9ssvHKdimEh1WM8]]></FromUserName>
+<CreateTime>1501559396</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-01 11:49:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'createtime' => '1501559396',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501559396',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-01 11:49:56 response :
+------------
+
+2017-08-01 11:50:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxODNtqBh9ssvHKdimEh1WM8]]></FromUserName>
+<CreateTime>1501559417</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-01 11:50:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'createtime' => '1501559417',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501559417',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-01 11:50:18 response :
+------------
+
+2017-08-01 11:58:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxODNtqBh9ssvHKdimEh1WM8]]></FromUserName>
+<CreateTime>1501559898</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://coh5.cn/p/24099990.html]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-01 11:58:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'createtime' => '1501559898',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://coh5.cn/p/24099990.html',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501559898',
+    'type' => 'text',
+    'content' => 'https://coh5.cn/p/24099990.html',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-01 11:58:19 response :
+------------
+

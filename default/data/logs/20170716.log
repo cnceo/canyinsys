@@ -1,0 +1,172 @@
+2017-07-16 06:46:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1OdI98LA6hQVt5MyqJqMcA8]]></FromUserName>
+<CreateTime>1500158789</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>510969028</MenuId>
+</xml>
+
+2017-07-16 06:46:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1OdI98LA6hQVt5MyqJqMcA8',
+    'createtime' => '1500158789',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '510969028',
+    'from' => 'oSt1B1OdI98LA6hQVt5MyqJqMcA8',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1500158789',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=entry&m=weisrc_dish&do=waprestList',
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '5',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-16 06:46:29 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1OdI98LA6hQVt5MyqJqMcA8 ;
+MsgType : text ;
+Content : 远宇诚智慧科技诚挚为您解决智能推广平台服务：18630221022 ;
+
+2017-07-16 06:47:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1OdI98LA6hQVt5MyqJqMcA8]]></FromUserName>
+<CreateTime>1500158856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://h5.wps.cn/p/b977c573.html]]></EventKey>
+<MenuId>510969028</MenuId>
+</xml>
+
+2017-07-16 06:47:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1OdI98LA6hQVt5MyqJqMcA8',
+    'createtime' => '1500158856',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://h5.wps.cn/p/b977c573.html',
+    'menuid' => '510969028',
+    'from' => 'oSt1B1OdI98LA6hQVt5MyqJqMcA8',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1500158856',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'https://h5.wps.cn/p/b977c573.html',
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '5',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-16 06:47:36 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1OdI98LA6hQVt5MyqJqMcA8 ;
+MsgType : text ;
+Content : 远宇诚智慧科技诚挚为您解决智能推广平台服务：18630221022 ;
+
+2017-07-16 06:50:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1OdI98LA6hQVt5MyqJqMcA8]]></FromUserName>
+<CreateTime>1500159014</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[案例展示]]></EventKey>
+</xml>
+
+2017-07-16 06:50:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1OdI98LA6hQVt5MyqJqMcA8',
+    'createtime' => '1500159014',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '案例展示',
+    'from' => 'oSt1B1OdI98LA6hQVt5MyqJqMcA8',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1500159014',
+    'type' => 'text',
+    'content' => '案例展示',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '18',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '84',
+    'rid' => '18',
+    'uniacid' => '5',
+    'module' => 'news',
+    'content' => '案例展示',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-16 06:50:14 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1OdI98LA6hQVt5MyqJqMcA8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

@@ -1,0 +1,394 @@
+2017-08-03 16:34:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501749252</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-03 16:34:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501749252',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501749252',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-08-03 16:34:12 response :
+------------
+
+2017-08-03 16:34:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501749260</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFFSGLJ6]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-03 16:34:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501749260',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFFSGLJ6',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501749260',
+    'type' => 'text',
+    'content' => 'http://ditu.amap.com/place/B0FFFSGLJ6',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-03 16:34:20 response :
+------------
+
+2017-08-03 16:34:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501749277</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[电话]]></EventKey>
+</xml>
+
+2017-08-03 16:34:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501749277',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '电话',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501749277',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'basic',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '165',
+    'rid' => '20',
+    'uniacid' => '12',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-03 16:34:37 response :
+------------
+Array:
+FromUserName : gh_fd300d56f050 ;
+ToUserName : oTjZTxFr2LlgvDafgukiJGbe4MOk ;
+MsgType : text ;
+Content : 订餐电话📞15333228498 ;
+
+2017-08-03 16:37:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501749479</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[电话]]></EventKey>
+</xml>
+
+2017-08-03 16:38:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501749479',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '电话',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501749479',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'basic',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '165',
+    'rid' => '20',
+    'uniacid' => '12',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-03 16:38:00 response :
+------------
+Array:
+FromUserName : gh_fd300d56f050 ;
+ToUserName : oTjZTxFr2LlgvDafgukiJGbe4MOk ;
+MsgType : text ;
+Content : 订餐电话📞15333228498 ;
+
+2017-08-03 16:38:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501749487</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[电话]]></EventKey>
+</xml>
+
+2017-08-03 16:38:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501749487',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '电话',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501749487',
+    'type' => 'text',
+    'content' => '电话',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'basic',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '165',
+    'rid' => '20',
+    'uniacid' => '12',
+    'module' => 'basic',
+    'content' => '电话',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-03 16:38:07 response :
+------------
+Array:
+FromUserName : gh_fd300d56f050 ;
+ToUserName : oTjZTxFr2LlgvDafgukiJGbe4MOk ;
+MsgType : text ;
+Content : 订餐电话📞15333228498 ;
+
+2017-08-03 16:38:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501749490</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[米线介绍]]></EventKey>
+</xml>
+
+2017-08-03 16:38:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501749490',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '米线介绍',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501749490',
+    'type' => 'text',
+    'content' => '米线介绍',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '169',
+    'rid' => '21',
+    'uniacid' => '12',
+    'module' => 'news',
+    'content' => '米线介绍',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-03 16:38:10 response :
+------------
+Array:
+FromUserName : gh_fd300d56f050 ;
+ToUserName : oTjZTxFr2LlgvDafgukiJGbe4MOk ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-08-03 16:57:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxODNtqBh9ssvHKdimEh1WM8]]></FromUserName>
+<CreateTime>1501750659</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index]]></EventKey>
+<MenuId>801858503</MenuId>
+</xml>
+
+2017-08-03 16:57:39 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'createtime' => '1501750659',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'menuid' => '801858503',
+    'from' => 'oTjZTxODNtqBh9ssvHKdimEh1WM8',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501750659',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=12&c=entry&m=weisrc_dish&do=index',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-08-03 16:57:39 response :
+------------
+
+2017-08-03 17:24:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxFr2LlgvDafgukiJGbe4MOk]]></FromUserName>
+<CreateTime>1501752288</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[米线介绍]]></EventKey>
+</xml>
+
+2017-08-03 17:24:49 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'createtime' => '1501752288',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '米线介绍',
+    'from' => 'oTjZTxFr2LlgvDafgukiJGbe4MOk',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1501752288',
+    'type' => 'text',
+    'content' => '米线介绍',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '169',
+    'rid' => '21',
+    'uniacid' => '12',
+    'module' => 'news',
+    'content' => '米线介绍',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-03 17:24:49 response :
+------------
+Array:
+FromUserName : gh_fd300d56f050 ;
+ToUserName : oTjZTxFr2LlgvDafgukiJGbe4MOk ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

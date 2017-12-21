@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+<title>地址</title>
+<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+<link rel="stylesheet" type="text/css" href="../css/address.css"/>
+<link rel="stylesheet" type="text/css" href="../css/fakeLoader.css">
+<script src="../script/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div class="fakeloader"></div>
+
+<div id="wrap">
+	<div class="page-curruet" style="display: block;">
+        <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-left" href="">
+                <span class="icon-left"></span>
+            </a> 
+            <a class="button button-link button-nav pull-right">新增</a>
+            <h1 class="title">我的收货地址</h1>
+        </header>
+        <div class="content">
+        <div class="list-block address-list" style="display: none;">
+            <ul>
+                <li class="item-content item-link">
+                    <div class="item-inner">
+                        <div class="address-list-info">
+                            <p>渝中花园 12号楼5房</p>
+                            <p>江 先生 18375623695</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-link">
+                    <div class="item-inner">
+                        <div class="address-list-info">
+                            <p>渝中花园 12号楼5房</p>
+                            <p>江 先生 18375623695</p>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+        
+        <!--没有地址时展示-->
+        <div class="empty-list" style="display: block;">
+            <div class="empty-list-icon empty-list-icon-order"></div>
+            <p class="empty-list-tip">您现在还没有收餐地址</p>
+            <p class="empty-list-tip">
+                <button class="button button-fill empty-list-button">添加一个</button>
+            </p>
+            </div>
+        </div>
+    </div>
+    
+ <div id="address-list-editor" class="popup" style="display: none;">
+    <header class="bar bar-nav">
+        <a href="#" class="button button-link button-nav pull-right">保存</a> 
+        <a href="#" class="button button-link button-nav pull-left">取消</a>
+        <h1 class="title">编辑地址</h1>
+    </header>
+    <div class="content native-scroll">
+        <div class="list-block address-editor">
+            <div class="address-editor-ribbon"></div>
+           <!-- <ul class="full-width-form" style="display: none;">
+                <li class="item-content item-link">
+                    <div class="item-inner" style="padding-right:1.5rem">
+                        <div class="address-editor-info">
+                            <p></p>
+                            <p>请选择收餐地址 </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>-->
+            <ul class="full-width-form">
+                <li class="item-content item-link">
+                    <div class="item-inner">
+                        <div class="item-title label">收餐地址:</div>
+                        <div class="item-input input-address" style="padding-right:30px; line-height:21px">请选择收餐地址</div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                    <div class="item-title label">门牌号:</div>
+                    <div class="item-input">
+                         <input type="text" placeholder="楼层/门牌号等信息"></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title label">联系人:</div>
+                        <div class="item-input">
+                            <input type="text" placeholder="您的姓名">
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title label">
+                        </div>
+                        <div class="item-input">
+                            <label class="label-checkbox item-content">
+                                <input type="radio" name="gender" value="M">
+                                <div class="item-media">
+                                    <i class="icon icon-form-checkbox">
+                                    </i>
+                                    <span>&nbsp;先生</span>
+                                </div>
+                             </label> 
+                             <label class="label-checkbox item-content">
+                                 <input type="radio" name="gender" value="F">
+                                <div class="item-media">
+                                    <i class="icon icon-form-checkbox">
+                                    </i>
+                                    <span>&nbsp;女士</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title label">联系电话:</div>
+                        <div class="item-input">
+                            <input type="tel" maxlength="13" placeholder="配送员联系您的方式" value="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            </div>
+            <div class="list-block" style="display: block;">
+                <ul>
+                    <li>
+                        <a href="#" class="item-link list-button">删除该地址</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+    	</div>
+   
+   <div class="popup popup-address-locator" style="display: none;">
+       <header class="bar bar-nav">
+           <a class="button button-link button-nav pull-left close" href="#"></a>
+           <h1 class="title">搜索地址</h1>
+       </header>
+       <div class="content native-scroll">
+           <div class="content-padded">
+               <div class="search-input">
+                   <label class="icon icon-search" for="search"></label>
+                   <input class="needsclick" type="search" id="search" placeholder="输入小区、建筑物、学校等" autocomplete="off">
+               </div>
+               <div class="address-locator-preloader" style="display: none;">
+                    <div class="preloader"></div>
+               </div>
+               <div class="list-block media-list address-locator-tips">
+                   <ul>
+                       <li>
+                       <label class="label-checkbox item-content">
+                           <input type="radio" name="address-locator-tip">
+                           <div class="item-media">
+                            <i class="icon icon-form-checkbox"></i>
+                           </div>
+                           <div class="item-inner">
+                               <div class="item-title-row">
+                                    <div class="item-title">中关村(地铁站)</div>
+                               </div>
+                                <div class="item-text">北京市海淀区</div>
+                           </div>
+                       </label>
+                       </li>
+                        <li>
+                       <label class="label-checkbox item-content">
+                           <input type="radio" name="address-locator-tip">
+                           <div class="item-media">
+                            <i class="icon icon-form-checkbox"></i>
+                           </div>
+                           <div class="item-inner">
+                               <div class="item-title-row">
+                                    <div class="item-title">中关村(地铁站)</div>
+                               </div>
+                                <div class="item-text">北京市海淀区</div>
+                           </div>
+                       </label>
+                       </li>
+                        <li>
+                       <label class="label-checkbox item-content">
+                           <input type="radio" name="address-locator-tip">
+                           <div class="item-media">
+                            <i class="icon icon-form-checkbox"></i>
+                           </div>
+                           <div class="item-inner">
+                               <div class="item-title-row">
+                                    <div class="item-title">中关村(地铁站)</div>
+                               </div>
+                                <div class="item-text">北京市海淀区</div>
+                           </div>
+                       </label>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </div>     
+    
+</div>
+
+<div class="popup-overlay"></div>
+
+<script>
+$(document).ready(function(e) {
+    $('.page-curruet .pull-right,.page-curruet .empty-list-button').click(function(e) {
+        $('#address-list-editor').css({"display":"block"})
+		$('#address-list-editor').animate({"top":"0"},400)
+		$('.popup-overlay').addClass('modal-overlay-visible')
+    });
+	
+	$('#address-list-editor .pull-left').click(function(e) {      
+		$('#address-list-editor').animate({"top":"100%"},400)
+		$('.popup-overlay').removeClass('modal-overlay-visible')
+		var timer = setTimeout("close()",450)
+    });
+	
+	$('#address-list-editor .input-address').click(function(e) {
+	   $('.popup-address-locator').css({"display":"block"})
+	   $('.popup-address-locator').animate({"top":"0"},400)
+    });
+	
+	$('.popup-address-locator .pull-left').click(function(e) {
+	  	$('.popup-address-locator').animate({"top":"100%"},400)
+		var timera = setTimeout("aclose()",450)
+    });
+	
+});
+function close(){
+	$('#address-list-editor').css({"display":"none"})
+	}
+function aclose(){
+	$('.popup-address-locator').css({"display":"none"})
+	}
+</script>
+
+<div class="top-btn" style="display: block;">
+<a class="react">
+    <i class="text-icon">⇧</i>
+</a>
+</div>
+    <script>
+    
+    //top行为
+    $('.top-btn').on('click',function(){
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    });
+    if ($(document).scrollTop() == 0) {
+    $('.top-btn').css('display','none');
+    }
+    $(document).bind('scroll',function() {
+    if ($(document).scrollTop() == 0) {
+    $('.top-btn').css('display','none');
+    }else{
+    $('.top-btn').css('display','block');
+    }
+    })	
+	</script>
+
+<script src="../script/fakeLoader.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".fakeloader").fakeLoader({
+        timeToHide:1200,
+        bgColor:"#1abc9c",
+        spinner:"spinner6"
+    });
+});
+</script>    
+	</body>
+</html>

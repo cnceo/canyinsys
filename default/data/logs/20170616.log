@@ -1,0 +1,880 @@
+2017-06-16 20:13:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615190</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:13:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615190',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615190',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:13:10 response :
+------------
+
+2017-06-16 20:17:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615427</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:17:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615427',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615427',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:17:07 response :
+------------
+
+2017-06-16 20:19:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615556</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:19:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615556',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615556',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:19:16 response :
+------------
+
+2017-06-16 20:19:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:19:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615582',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615582',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:19:42 response :
+------------
+
+2017-06-16 20:21:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615701</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:21:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615701',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615701',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:21:41 response :
+------------
+
+2017-06-16 20:22:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615747</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:22:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615747',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615747',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:22:27 response :
+------------
+
+2017-06-16 20:23:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615810</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:23:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615810',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615810',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:23:30 response :
+------------
+
+2017-06-16 20:23:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615812</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:23:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615812',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615812',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:23:33 response :
+------------
+
+2017-06-16 20:24:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615852</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:24:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615852',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615852',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:24:13 response :
+------------
+
+2017-06-16 20:24:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497615855</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:24:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497615855',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497615855',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:24:15 response :
+------------
+
+2017-06-16 20:32:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497616352</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:32:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497616352',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497616352',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:32:32 response :
+------------
+
+2017-06-16 20:34:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497616498</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:34:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497616498',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497616498',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:34:59 response :
+------------
+
+2017-06-16 20:35:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497616502</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:35:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497616502',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497616502',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:35:02 response :
+------------
+
+2017-06-16 20:45:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497617148</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:45:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497617148',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497617148',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=usercenter',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:45:48 response :
+------------
+
+2017-06-16 20:45:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497617152</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:45:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497617152',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497617152',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:45:52 response :
+------------
+
+2017-06-16 20:56:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497617773</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 20:56:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497617773',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497617773',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 20:56:13 response :
+------------
+
+2017-06-16 21:06:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497618412</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 21:06:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497618412',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497618412',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 21:06:52 response :
+------------
+
+2017-06-16 21:26:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497619592</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 21:26:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497619592',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497619592',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 21:26:32 response :
+------------
+
+2017-06-16 21:30:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497619819</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 21:30:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497619819',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497619819',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 21:30:19 response :
+------------
+
+2017-06-16 21:35:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497620110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 21:35:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497620110',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497620110',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 21:35:10 response :
+------------
+
+2017-06-16 21:35:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497620151</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 21:35:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497620151',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497620151',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=order',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 21:35:51 response :
+------------
+
+2017-06-16 21:36:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_64193e389546]]></ToUserName>
+<FromUserName><![CDATA[oG-qK06vubvbC4tRdY_xi2l9I2RI]]></FromUserName>
+<CreateTime>1497620165</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList]]></EventKey>
+<MenuId>472377621</MenuId>
+</xml>
+
+2017-06-16 21:36:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_64193e389546',
+    'fromusername' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'createtime' => '1497620165',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'menuid' => '472377621',
+    'from' => 'oG-qK06vubvbC4tRdY_xi2l9I2RI',
+    'to' => 'gh_64193e389546',
+    'time' => '1497620165',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=2&c=entry&m=weisrc_dish&do=waprestList',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-06-16 21:36:06 response :
+------------
+

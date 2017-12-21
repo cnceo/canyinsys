@@ -1,0 +1,56 @@
+2017-09-24 20:47:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fd300d56f050]]></ToUserName>
+<FromUserName><![CDATA[oTjZTxKxC_BJ7kpHjADhNb7Ez1QE]]></FromUserName>
+<CreateTime>1506257246</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-24 20:47:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fd300d56f050',
+    'fromusername' => 'oTjZTxKxC_BJ7kpHjADhNb7Ez1QE',
+    'createtime' => '1506257246',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oTjZTxKxC_BJ7kpHjADhNb7Ez1QE',
+    'to' => 'gh_fd300d56f050',
+    'time' => '1506257246',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '米线介绍',
+  ),
+  'module' => 'news',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '171',
+    'rid' => '21',
+    'uniacid' => '12',
+    'module' => 'news',
+    'content' => '米线介绍',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-09-24 20:47:26 response :
+------------
+Array:
+FromUserName : gh_fd300d56f050 ;
+ToUserName : oTjZTxKxC_BJ7kpHjADhNb7Ez1QE ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

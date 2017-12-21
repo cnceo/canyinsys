@@ -1,0 +1,2096 @@
+2017-07-01 12:42:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498884140</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 12:42:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498884157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 12:42:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498884157',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884157',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-07-01 12:42:37 response :
+------------
+
+2017-07-01 12:44:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884257</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[涿州天气]]></Content>
+<MsgId>6437658864814458709</MsgId>
+</xml>
+
+2017-07-01 12:44:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884257',
+    'msgtype' => 'text',
+    'content' => '涿州天气',
+    'msgid' => '6437658864814458709',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884257',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '1',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '1',
+    'rid' => '1',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '^.+天气$',
+    'type' => '3',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:44:18 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : text ;
+Content : 涿州今日天气
+今天白天晴，36摄氏度。
+南风，≤3
+今天夜间晴，24摄氏度。
+东南风，≤3
+==================
+【穿衣指数】：短袖衫、短裙、短裤、薄型T恤衫、敞领短袖棉衫
+
+【感冒指数】：易发期天气闷热，注意预防热伤风；
+
+【空调指数】：适宜开启空调
+
+【污染物扩散条件】：轻度对空气污染物扩散无明显影响
+
+【洗车指数】：不太适宜洗车后未来1-2天内有降水、大风或沙尘天气，不太适宜洗车
+
+【运动指数】：不适宜天气闷热，不适宜户外运动；
+
+【紫外线指数】：很强紫外线很强
+
+【体感度指数】：炎热天气炎热，外出注意防晒，走在阴凉处，不宜长时间从事室外活动，中午11点到下午4点之间尽量避免外出。
+ ;
+
+2017-07-01 12:44:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884265</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[北京天气]]></Content>
+<MsgId>6437658899174197081</MsgId>
+</xml>
+
+2017-07-01 12:44:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884265',
+    'msgtype' => 'text',
+    'content' => '北京天气',
+    'msgid' => '6437658899174197081',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884265',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '1',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '1',
+    'rid' => '1',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '^.+天气$',
+    'type' => '3',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:44:25 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : text ;
+Content : 北京今日天气
+今天白天多云，35摄氏度。
+南风，≤3
+今天夜间晴，24摄氏度。
+北风，≤3
+==================
+【穿衣指数】：短袖衫、短裙、短裤、薄型T恤衫、敞领短袖棉衫
+
+【感冒指数】：易发期天气闷热，注意预防热伤风；
+
+【空调指数】：适宜开启空调
+
+【污染物扩散条件】：轻度对空气污染物扩散无明显影响
+
+【洗车指数】：不太适宜洗车后未来1-2天内有降水、大风或沙尘天气，不太适宜洗车
+
+【运动指数】：不适宜天气闷热，不适宜户外运动；
+
+【紫外线指数】：很强紫外线很强
+
+【体感度指数】：较热户外活动不适宜在中午前后展开。
+ ;
+
+2017-07-01 12:44:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884290</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[天气]]></Content>
+<MsgId>6437659006548379525</MsgId>
+</xml>
+
+2017-07-01 12:44:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884290',
+    'msgtype' => 'text',
+    'content' => '天气',
+    'msgid' => '6437659006548379525',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884290',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-07-01 12:44:50 response :
+------------
+
+2017-07-01 12:45:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884306</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[百科杨幂]]></Content>
+<MsgId>6437659075267856284</MsgId>
+</xml>
+
+2017-07-01 12:45:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884306',
+    'msgtype' => 'text',
+    'content' => '百科杨幂',
+    'msgid' => '6437659075267856284',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884306',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '2',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '2',
+    'rid' => '2',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '^百科.+$',
+    'type' => '3',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:45:06 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : text ;
+Content : 没有找到结果, 要不换个词试试? ;
+
+2017-07-01 12:45:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884328</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[几号]]></Content>
+<MsgId>6437659169757136831</MsgId>
+</xml>
+
+2017-07-01 12:45:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884328',
+    'msgtype' => 'text',
+    'content' => '几号',
+    'msgid' => '6437659169757136831',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884328',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '4',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '8',
+    'rid' => '4',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '几号',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:45:28 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : text ;
+Content : 今天是 2017年7月1日 星期六==================
+农历: 六月初八 丁酉年 丙午月 己丑日==================
+宜: 
+嫁娶:男娶女嫁，举行结婚大典的吉日。
+出行:指外出旅行、观光游览。
+安机械
+祭祀:指祠堂之祭祀、即拜祭祖先或庙寺的祭拜、拜神明等事。
+塑绘:寺庙之绘尽或雕刻神像、画雕人像等。
+开光:神佛像塑成后、供奉上位之事。
+治病:仅指求医治疗慢性痼疾或动手术。
+经络
+安床:指安置睡床卧铺之意。
+结网
+塞穴:指堵塞洞穴或蚁穴等。
+破土:仅指埋葬用的破土，与一般建筑房屋的「动土」不同。即「破土」属阴宅，「动土」指阳宅也。现今社会上多已滥用，择日时，须辨别之。
+入殓:将尸体放入棺材之意。
+==================
+忌: 
+开市:开业之意。商店行号开张做生意。「开幕礼」「开工」同。包括：(1)年头初开始营业或开工等事。(2) 新设店铺商行或新厂开幕等事。
+安门:房屋装设门户等工事。
+掘井:开凿水井。
+作灶:指安修厨灶、厨炉移位。
+ ;
+
+2017-07-01 12:45:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884342</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[新闻]]></Content>
+<MsgId>6437659229886678993</MsgId>
+</xml>
+
+2017-07-01 12:45:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884342',
+    'msgtype' => 'text',
+    'content' => '新闻',
+    'msgid' => '6437659229886678993',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884342',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '5',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '9',
+    'rid' => '5',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '新闻',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:45:42 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-01 12:47:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498884442</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[申通3332809019856]]></Content>
+<MsgId>6437659659383408687</MsgId>
+</xml>
+
+2017-07-01 12:47:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498884442',
+    'msgtype' => 'text',
+    'content' => '申通3332809019856',
+    'msgid' => '6437659659383408687',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498884442',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '6',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '10',
+    'rid' => '6',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '^(申通|圆通|中通|汇通|韵达|顺丰|EMS) *[a-z0-9]{1,}$',
+    'type' => '3',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:47:25 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-01 14:25:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498890304</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 14:25:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498890331</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 14:36:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498890974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 14:36:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498890974',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498890974',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-07-01 14:36:14 response :
+------------
+
+2017-07-01 14:37:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498891062</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 14:37:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498891062',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498891062',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-07-01 14:37:42 response :
+------------
+
+2017-07-01 14:40:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498891242</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点餐]]></Content>
+<MsgId>6437688865161038004</MsgId>
+</xml>
+
+2017-07-01 14:40:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498891242',
+    'msgtype' => 'text',
+    'content' => '点餐',
+    'msgid' => '6437688865161038004',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498891242',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-07-01 14:40:42 response :
+------------
+
+2017-07-01 14:40:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498891247</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[扫码]]></Content>
+<MsgId>6437688886635874493</MsgId>
+</xml>
+
+2017-07-01 14:40:47 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498891247',
+    'msgtype' => 'text',
+    'content' => '扫码',
+    'msgid' => '6437688886635874493',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498891247',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-07-01 14:40:47 response :
+------------
+
+2017-07-01 14:54:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498892097</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/rnibHic7htwPT1fg511KRyGqCJ7Gz5xiboEnRygXbzy1f8tR0K9vRkibksK3xVUTy1UbJ1OerseeBezxv7Gvfic1oAA/0]]></PicUrl>
+<MsgId>6437692537358077213</MsgId>
+<MediaId><![CDATA[i6f_pi2XPScKUGvwUzRtGMw-8yL6ynagHo7coK5f_Eoy92GZUlFJP3F8JLXsBbWG]]></MediaId>
+</xml>
+
+2017-07-01 14:54:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498892097',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/rnibHic7htwPT1fg511KRyGqCJ7Gz5xiboEnRygXbzy1f8tR0K9vRkibksK3xVUTy1UbJ1OerseeBezxv7Gvfic1oAA/0',
+    'msgid' => '6437692537358077213',
+    'mediaid' => 'i6f_pi2XPScKUGvwUzRtGMw-8yL6ynagHo7coK5f_Eoy92GZUlFJP3F8JLXsBbWG',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498892097',
+    'type' => 'image',
+    'event' => NULL,
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/rnibHic7htwPT1fg511KRyGqCJ7Gz5xiboEnRygXbzy1f8tR0K9vRkibksK3xVUTy1UbJ1OerseeBezxv7Gvfic1oAA/0',
+  ),
+)
+
+2017-07-01 14:54:58 response :
+------------
+
+2017-07-01 15:26:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894016</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&]]></EventKey>
+<MenuId>510220168</MenuId>
+</xml>
+
+2017-07-01 15:26:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894016',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'menuid' => '510220168',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894016',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:26:57 response :
+------------
+
+2017-07-01 15:31:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894279</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&]]></EventKey>
+<MenuId>510220168</MenuId>
+</xml>
+
+2017-07-01 15:31:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894279',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'menuid' => '510220168',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894279',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:31:19 response :
+------------
+
+2017-07-01 15:34:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894493</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&]]></EventKey>
+<MenuId>510220168</MenuId>
+</xml>
+
+2017-07-01 15:34:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894493',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'menuid' => '510220168',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894493',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:34:53 response :
+------------
+
+2017-07-01 15:35:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894510</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&]]></EventKey>
+<MenuId>510220168</MenuId>
+</xml>
+
+2017-07-01 15:35:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894510',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'menuid' => '510220168',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894510',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:35:10 response :
+------------
+
+2017-07-01 15:35:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894513</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&]]></EventKey>
+<MenuId>510220168</MenuId>
+</xml>
+
+2017-07-01 15:35:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894513',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'menuid' => '510220168',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894513',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:35:13 response :
+------------
+
+2017-07-01 15:35:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894519</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&]]></EventKey>
+<MenuId>510220168</MenuId>
+</xml>
+
+2017-07-01 15:35:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894519',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'menuid' => '510220168',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894519',
+    'type' => 'text',
+    'content' => 'http://weixin.zhuoyueguanli.com/app/index.php?i=5&c=home&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:35:19 response :
+------------
+
+2017-07-01 15:35:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894539</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[pic_photo_or_album]]></Event>
+<EventKey><![CDATA[新闻]]></EventKey>
+<SendPicsInfo><Count>1</Count>
+<PicList><item><PicMd5Sum><![CDATA[a470cd5536c97a91b6c380b23e70cd8e]]></PicMd5Sum>
+</item>
+</PicList>
+</SendPicsInfo>
+</xml>
+
+2017-07-01 15:35:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894539',
+    'msgtype' => 'event',
+    'event' => 'pic_photo_or_album',
+    'eventkey' => '新闻',
+    'sendpicsinfo' => 
+    array (
+      'count' => '1',
+      'piclist' => 
+      array (
+        0 => 'a470cd5536c97a91b6c380b23e70cd8e',
+      ),
+    ),
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894539',
+    'type' => 'event',
+    'content' => '新闻',
+    'source' => 'pic_photo_or_album',
+  ),
+  'module' => 'userapi',
+  'rule' => '5',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '9',
+    'rid' => '5',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '新闻',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 15:35:40 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-01 15:35:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894540</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/6QyxXCxCktahsibgb2dyul8HwcG7FlkhDXOBRUqGeRia3MJDKibHzO3eeBNMo6EZia8UWM682KgIx9Pwe3NIicDtmLQ/0]]></PicUrl>
+<MsgId>6437703029963184824</MsgId>
+<MediaId><![CDATA[IJVMqtrQutJN4DYrbLoBHinmKqbYZgFd5ksMWNwAQyRwirU8xlG4clptkX5zhnib]]></MediaId>
+</xml>
+
+2017-07-01 15:35:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894540',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/6QyxXCxCktahsibgb2dyul8HwcG7FlkhDXOBRUqGeRia3MJDKibHzO3eeBNMo6EZia8UWM682KgIx9Pwe3NIicDtmLQ/0',
+    'msgid' => '6437703029963184824',
+    'mediaid' => 'IJVMqtrQutJN4DYrbLoBHinmKqbYZgFd5ksMWNwAQyRwirU8xlG4clptkX5zhnib',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894540',
+    'type' => 'text',
+    'event' => 'pic_photo_or_album',
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/6QyxXCxCktahsibgb2dyul8HwcG7FlkhDXOBRUqGeRia3MJDKibHzO3eeBNMo6EZia8UWM682KgIx9Pwe3NIicDtmLQ/0',
+    'content' => '新闻',
+    'eventkey' => '新闻',
+    'redirection' => true,
+    'source' => 'pic_photo_or_album',
+  ),
+  'module' => 'userapi',
+  'rule' => '5',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '9',
+    'rid' => '5',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '新闻',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 15:35:41 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-01 15:36:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894591</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[pic_photo_or_album]]></Event>
+<EventKey><![CDATA[新闻]]></EventKey>
+<SendPicsInfo><Count>1</Count>
+<PicList><item><PicMd5Sum><![CDATA[e5f1d0a1a2ebb36156dd6e889889df96]]></PicMd5Sum>
+</item>
+</PicList>
+</SendPicsInfo>
+</xml>
+
+2017-07-01 15:36:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894591',
+    'msgtype' => 'event',
+    'event' => 'pic_photo_or_album',
+    'eventkey' => '新闻',
+    'sendpicsinfo' => 
+    array (
+      'count' => '1',
+      'piclist' => 
+      array (
+        0 => 'e5f1d0a1a2ebb36156dd6e889889df96',
+      ),
+    ),
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894591',
+    'type' => 'event',
+    'content' => '新闻',
+    'source' => 'pic_photo_or_album',
+  ),
+  'module' => 'userapi',
+  'rule' => '5',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '9',
+    'rid' => '5',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '新闻',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 15:36:31 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-01 15:36:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498894591</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/6QyxXCxCktahsibgb2dyul8HwcG7FlkhDngl2Cw5vxeD2CcEpDgXlcD68yToHfKvmt065SwLwXoHbSMmrUsGUJg/0]]></PicUrl>
+<MsgId>6437703249006516971</MsgId>
+<MediaId><![CDATA[uJBs1PW15dYRm2uPYZPhbxebHFw9iARc9ZczdTzHlvvm-M9aHWzvBc1-J5II4tDE]]></MediaId>
+</xml>
+
+2017-07-01 15:36:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498894591',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/6QyxXCxCktahsibgb2dyul8HwcG7FlkhDngl2Cw5vxeD2CcEpDgXlcD68yToHfKvmt065SwLwXoHbSMmrUsGUJg/0',
+    'msgid' => '6437703249006516971',
+    'mediaid' => 'uJBs1PW15dYRm2uPYZPhbxebHFw9iARc9ZczdTzHlvvm-M9aHWzvBc1-J5II4tDE',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498894591',
+    'type' => 'text',
+    'event' => 'pic_photo_or_album',
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/6QyxXCxCktahsibgb2dyul8HwcG7FlkhDngl2Cw5vxeD2CcEpDgXlcD68yToHfKvmt065SwLwXoHbSMmrUsGUJg/0',
+    'content' => '新闻',
+    'eventkey' => '新闻',
+    'redirection' => true,
+    'source' => 'pic_photo_or_album',
+  ),
+  'module' => 'userapi',
+  'rule' => '5',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '9',
+    'rid' => '5',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '新闻',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 15:36:33 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-01 15:44:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498895048</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:44:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498895048',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895048',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:44:08 response :
+------------
+
+2017-07-01 15:47:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498895251</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:47:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498895251',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895251',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:47:31 response :
+------------
+
+2017-07-01 15:49:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895388</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:49:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895388',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895388',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:49:48 response :
+------------
+
+2017-07-01 15:50:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:50:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895400',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895400',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:50:00 response :
+------------
+
+2017-07-01 15:50:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498895407</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:50:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498895407',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895407',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:50:07 response :
+------------
+
+2017-07-01 15:50:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895408</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:50:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895408',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895408',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:50:08 response :
+------------
+
+2017-07-01 15:50:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895432</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:50:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895432',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895432',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:50:32 response :
+------------
+
+2017-07-01 15:50:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895456</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:50:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895456',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895456',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:50:56 response :
+------------
+
+2017-07-01 15:51:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895465</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:51:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895465',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895465',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:51:05 response :
+------------
+
+2017-07-01 15:51:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498895492</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:51:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498895492',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895492',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:51:32 response :
+------------
+
+2017-07-01 15:51:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498895496</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:51:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498895496',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895496',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:51:36 response :
+------------
+
+2017-07-01 15:51:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498895503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFHFLJWT]]></EventKey>
+<MenuId>510221805</MenuId>
+</xml>
+
+2017-07-01 15:51:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498895503',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'menuid' => '510221805',
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895503',
+    'type' => 'text',
+    'content' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:51:43 response :
+------------
+
+2017-07-01 15:51:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895516</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:51:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895516',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895516',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:51:56 response :
+------------
+
+2017-07-01 15:52:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895527</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:52:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895527',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895527',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:52:08 response :
+------------
+
+2017-07-01 15:52:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895570</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:52:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895570',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895570',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:52:50 response :
+------------
+
+2017-07-01 15:54:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895674</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:54:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895674',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895674',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:54:34 response :
+------------
+
+2017-07-01 15:54:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895687</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.baidu.com/]]></EventKey>
+<MenuId>510221487</MenuId>
+</xml>
+
+2017-07-01 15:54:47 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895687',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.baidu.com/',
+    'menuid' => '510221487',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895687',
+    'type' => 'text',
+    'content' => 'http://ditu.baidu.com/',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:54:47 response :
+------------
+
+2017-07-01 15:54:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1DxQRHp4a90zb_B9hF28GLg]]></FromUserName>
+<CreateTime>1498895687</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 15:54:47 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1DxQRHp4a90zb_B9hF28GLg',
+    'createtime' => '1498895687',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oSt1B1DxQRHp4a90zb_B9hF28GLg',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895687',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-07-01 15:54:47 response :
+------------
+
+2017-07-01 15:54:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1DxQRHp4a90zb_B9hF28GLg]]></FromUserName>
+<CreateTime>1498895691</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFHFLJWT]]></EventKey>
+<MenuId>510221805</MenuId>
+</xml>
+
+2017-07-01 15:54:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1DxQRHp4a90zb_B9hF28GLg',
+    'createtime' => '1498895691',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'menuid' => '510221805',
+    'from' => 'oSt1B1DxQRHp4a90zb_B9hF28GLg',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895691',
+    'type' => 'text',
+    'content' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:54:51 response :
+------------
+
+2017-07-01 15:55:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498895742</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFHFLJWT]]></EventKey>
+<MenuId>510221805</MenuId>
+</xml>
+
+2017-07-01 15:55:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498895742',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'menuid' => '510221805',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498895742',
+    'type' => 'text',
+    'content' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 15:55:42 response :
+------------
+
+2017-07-01 16:16:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1JmL6XVB2Wi7DQCZGGAF_dA]]></FromUserName>
+<CreateTime>1498897009</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://ditu.amap.com/place/B0FFHFLJWT]]></EventKey>
+<MenuId>510221805</MenuId>
+</xml>
+
+2017-07-01 16:16:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'createtime' => '1498897009',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'menuid' => '510221805',
+    'from' => 'oSt1B1JmL6XVB2Wi7DQCZGGAF_dA',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498897009',
+    'type' => 'text',
+    'content' => 'http://ditu.amap.com/place/B0FFHFLJWT',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-07-01 16:16:49 response :
+------------
+
+2017-07-01 16:38:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1Gqv4rlQHvy62j6BbCp2X3s]]></FromUserName>
+<CreateTime>1498898322</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[pic_photo_or_album]]></Event>
+<EventKey><![CDATA[新闻]]></EventKey>
+<SendPicsInfo><Count>1</Count>
+<PicList><item><PicMd5Sum><![CDATA[94b5720c46d1119e34c1f3f83bd29774]]></PicMd5Sum>
+</item>
+</PicList>
+</SendPicsInfo>
+</xml>
+
+2017-07-01 16:38:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'createtime' => '1498898322',
+    'msgtype' => 'event',
+    'event' => 'pic_photo_or_album',
+    'eventkey' => '新闻',
+    'sendpicsinfo' => 
+    array (
+      'count' => '1',
+      'piclist' => 
+      array (
+        0 => '94b5720c46d1119e34c1f3f83bd29774',
+      ),
+    ),
+    'from' => 'oSt1B1Gqv4rlQHvy62j6BbCp2X3s',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1498898322',
+    'type' => 'event',
+    'content' => '新闻',
+    'source' => 'pic_photo_or_album',
+  ),
+  'module' => 'userapi',
+  'rule' => '5',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '9',
+    'rid' => '5',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '新闻',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 16:38:43 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1Gqv4rlQHvy62j6BbCp2X3s ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

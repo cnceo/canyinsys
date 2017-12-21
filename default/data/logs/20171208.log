@@ -1,0 +1,56 @@
+2017-12-08 12:45:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_14a8aa23d822]]></ToUserName>
+<FromUserName><![CDATA[oSt1B1MnOJI9PrLzVZ20hA2gRhPw]]></FromUserName>
+<CreateTime>1512708301</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-12-08 12:45:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_14a8aa23d822',
+    'fromusername' => 'oSt1B1MnOJI9PrLzVZ20hA2gRhPw',
+    'createtime' => '1512708301',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oSt1B1MnOJI9PrLzVZ20hA2gRhPw',
+    'to' => 'gh_14a8aa23d822',
+    'time' => '1512708301',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '微信点餐',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '172',
+    'rid' => '13',
+    'uniacid' => '5',
+    'module' => 'news',
+    'content' => '微信点餐',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-12-08 12:45:01 response :
+------------
+Array:
+FromUserName : gh_14a8aa23d822 ;
+ToUserName : oSt1B1MnOJI9PrLzVZ20hA2gRhPw ;
+MsgType : news ;
+ArticleCount : 5 ;
+Articles : Array ;
+
