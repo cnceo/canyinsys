@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="{php echo $this->cur_mobile_path}/css/common.css?v=7"/>
 <link rel="stylesheet" type="text/css" href="{php echo $this->cur_mobile_path}/css/goods-two.css"/>
 <link rel="stylesheet" type="text/css" href="{php echo $this->cur_mobile_path}/css/fakeLoader.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css">
 <script src="{php echo $this->cur_mobile_path}/script/jquery-1.8.3.min.js"></script>
     <style>
         .top-btn2 {
@@ -385,7 +386,12 @@ $(function() {
 	$("#menu-tabs-container").css("display","none");
         $(".shopheader-notice").css("display","none");
         $("#header").css({'height': adHeight + "px"});
-        $("#header").html("即将上线的广告位");
+        $("#header").html('<div class="swiper-container" style="width: 100%;height: '+adHeight+'px;">'
+	      +'<div id="ad-banner" class="swiper-wrapper">'
+		// +'<div class="swiper-slide"><a href=""><img src="" style="width:100%;height:100%;"/></a></div>'
+		// +'<div class="swiper-slide"><a href=""><img src="" style="width:100%;height:100%;"/></a></div>'
+	      +'</div>'
+	    +'</div>')
         $(".shop").css({'height':(136 - adHeight) + "px","top":adHeight + "px"})
         $(".shopheader-main").css({'top':"82px"})
  
@@ -1007,6 +1013,7 @@ $(document).ready(function(){
     });
 </script>
 <script src="//adsys.xushaoweisite.com/static/js/ad.js" ></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
 {php include $this->template($this->cur_tpl.'/_statistics');}
 	</body>
 </html>
